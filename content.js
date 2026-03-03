@@ -12,7 +12,7 @@ function skipAds() {
 		video.currentTime = video.duration;
 
 		// Click skip button if exists
-		const skipBtn = document.querySelector('.ytp-ad-skip-button');
+		const skipBtn = document.querySelector('button.ytp-skip-ad-button');
 
 		if (skipBtn) {
 			simulateRealClick(skipBtn);
